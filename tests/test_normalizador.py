@@ -23,7 +23,7 @@ def test_extraer_rut_con_cero_inicial_en_glosa():
 
 
 def test_rut_invalido_devuelve_generico():
-    assert normalizar_rut("11.111.111-1") == "1-9"
+    assert normalizar_rut("11.111.111-2") == "1-9"
 
 
 def test_normalizar_movimiento_completa_razon_social_y_glosa():
