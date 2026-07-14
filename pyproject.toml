@@ -1,0 +1,17 @@
+[project]
+name = "motor-contable-tsc"
+version = "0.1.0"
+description = "Motor para transformar cartolas bancarias en comprobantes importables a Nubox"
+requires-python = ">=3.11"
+dependencies = [
+  "openpyxl>=3.1.5",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.0",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
