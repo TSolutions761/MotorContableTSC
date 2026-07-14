@@ -7,6 +7,7 @@ from .comprobantes import (
     construir_comprobantes,
     validar_comprobante,
 )
+from .exportador_nubox import exportar_comprobantes_nubox
 from .models import (
     ComprobanteContable,
     DetalleAuxiliar,
@@ -43,4 +44,5 @@ __all__ = [
     "construir_comprobante",
     "construir_comprobantes",
     "validar_comprobante",
+    "exportar_comprobantes_nubox",
 ]
