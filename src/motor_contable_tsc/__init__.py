@@ -23,6 +23,7 @@ from .normalizador import (
     normalizar_movimiento,
     normalizar_rut,
 )
+from .pipeline import generar_archivo_nubox
 from .reporte import exportar_normalizacion_excel
 
 __all__ = [
@@ -45,4 +46,5 @@ __all__ = [
     "construir_comprobantes",
     "validar_comprobante",
     "exportar_comprobantes_nubox",
+    "generar_archivo_nubox",
 ]
